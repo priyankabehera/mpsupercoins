@@ -14,7 +14,7 @@ function wpdocs_baztag_func( $atts, $content = "" ) {
             $total_coin = $total_coin + $row->coin_purchased;
         }
         //echo "<pre>sddssdds"; print_r($row_selected  );
-        echo "<h2> Total Coins available:  " . $total_coin ." </h2>";
+        echo "<h2> Total Coins available here is:  " . $total_coin ." </h2>";
     } else {
         echo 'Hello visitor!';
     }
