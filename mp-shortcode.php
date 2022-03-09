@@ -16,7 +16,7 @@ function wpdocs_baztag_func( $atts, $content = "" ) {
         //echo "<pre>sddssdds"; print_r($row_selected  );
         echo "<h2> Total Coins available here is:  " . $total_coin ." </h2>";
     } else {
-        echo 'Hello visitor!';
+        echo 'Hello visitor! Please submit the issue';
     }
 
     
