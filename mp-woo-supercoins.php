@@ -200,7 +200,7 @@ function njengah_text_after_price($price,$product){
 
     $mpwscoin = get_post_meta( $id, 'mpwscoin', true );
 
-    $text_to_add_after_price  = ' + ' . $mpwscoin . ' Super coins'; //change text in bracket to your preferred text 
+    $text_to_add_after_price  = ' + ' . $mpwscoin . ' Super coins text is here'; //change text in bracket to your preferred text 
 		  
 	return $price .   $text_to_add_after_price;
 		  
