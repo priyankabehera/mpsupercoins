@@ -185,7 +185,7 @@ function woo_attrib_desc_tab_content() {
             $total_coin = $total_coin + $row->coin_purchased;
         }
         //echo "<pre>sddssdds"; print_r($row_selected  );
-        echo '<h2> No of Super Coins in your supercoin wallet: '.$total_coin.' </h2>';
+        echo '<h2> No of Super Coins in your supercoin wallet - Please follow the word: '.$total_coin.' </h2>';
     }
     
 }
@@ -200,7 +200,7 @@ function njengah_text_after_price($price,$product){
 
     $mpwscoin = get_post_meta( $id, 'mpwscoin', true );
 
-    $text_to_add_after_price  = ' + ' . $mpwscoin . ' Super coins'; //change text in bracket to your preferred text 
+    $text_to_add_after_price  = ' + ' . $mpwscoin . ' Super coins text is here'; //change text in bracket to your preferred text 
 		  
 	return $price .   $text_to_add_after_price;
 		  

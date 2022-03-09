@@ -9,6 +9,7 @@ function our_function_name( $hook ){
         array( 
             'ajaxurl' => admin_url( 'admin-ajax.php' ),
             'set_mpwscoin' => $supercoin_value,
+            'abc' => 'xyz'
         )
     );
 }
