@@ -185,7 +185,7 @@ function woo_attrib_desc_tab_content() {
             $total_coin = $total_coin + $row->coin_purchased;
         }
         //echo "<pre>sddssdds"; print_r($row_selected  );
-        echo '<h2> No of Super Coins in your supercoin wallet: '.$total_coin.' </h2>';
+        echo '<h2> No of Super Coins in your supercoin wallet - Please follow the word: '.$total_coin.' </h2>';
     }
     
 }
